@@ -1,77 +1,117 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Evan Raj | Personal Website</title>
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      background: #050807;
-      color: #00ff66;
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding: 30px 16px;
-    }
-
-    .card {
-      max-width: 600px;
-      margin: 40px auto;
-      padding: 30px 20px;
-      border: 1px solid #00ff66;
-      border-radius: 15px;
-      box-shadow: 0 0 20px #00ff6633;
-    }
-
-    h1 {
-      text-shadow: 0 0 12px #00ff66;
-    }
-
-    p {
-      color: #d0d0d0;
-      line-height: 1.7;
-    }
-
-    a {
-      display: inline-block;
-      color: #00ff66;
-      border: 1px solid #00ff66;
-      padding: 12px 18px;
-      margin: 8px;
-      border-radius: 8px;
-      text-decoration: none;
-    }
-
-    a:hover {
-      background: #00ff66;
-      color: #050807;
-    }
-
-    footer {
-      color: #777;
-      margin-top: 30px;
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UBNS Internet Service</title>
+<style>
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #07110d;
+  color: white;
+}
+header {
+  padding: 22px 15px;
+  text-align: center;
+  background: #0b1b13;
+  border-bottom: 2px solid #00ff88;
+}
+header h1 { color: #00ff88; margin: 0; }
+.hero { text-align: center; padding: 45px 18px; }
+.hero h2 { font-size: 30px; }
+.green { color: #00ff88; }
+.btn {
+  display: inline-block;
+  background: #00ff88;
+  color: #06110b;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  padding: 20px;
+}
+.card {
+  background: #10251a;
+  border: 1px solid #00a95c;
+  border-radius: 12px;
+  padding: 22px;
+  width: 260px;
+  text-align: center;
+}
+.price { color: #00ff88; font-size: 28px; }
+section { padding: 25px 15px; text-align: center; }
+footer {
+  background: #0b1b13;
+  padding: 20px;
+  text-align: center;
+  color: #bbb;
+}
+</style>
 </head>
 <body>
-  <div class="card">
-    <h1>EVAN RAJ</h1>
-    <h3>Welcome to My Website</h3>
-    <p>
-      Hello! I am Evan Raj.<br>
-      Developer, Learner and Dreamer.
-    </p>
-    <p>Welcome to my personal website!</p>
 
-    <a href="https://github.com/evanraj253148-bit">
-      My GitHub
-    </a>
+<header>
+  <h1>UBNS</h1>
+  <p>Fast & Reliable Internet Service</p>
+</header>
+
+<section class="hero">
+  <h2>Welcome to <span class="green">UBNS Internet</span></h2>
+  <p>দ্রুতগতির ইন্টারনেট, নির্ভরযোগ্য সংযোগ।</p>
+  <p>আপনার এলাকায় ভালো ইন্টারনেট সার্ভিস পেতে যোগাযোগ করুন।</p>
+  <a class="btn" href="tel:+8801782343935">Call Now</a>
+</section>
+
+<section>
+  <h2 class="green">Our Internet Packages</h2>
+  <div class="packages">
+    <div class="card">
+      <h3>30 Mbps</h3>
+      <p class="price">৳500</p>
+      <p>মাসিক প্যাকেজ</p>
+      <a class="btn" href="tel:+8801782343935">যোগাযোগ</a>
+    </div>
+    <div class="card">
+      <h3>50 Mbps</h3>
+      <p class="price">৳800</p>
+      <p>মাসিক প্যাকেজ</p>
+      <a class="btn" href="tel:+8801782343935">যোগাযোগ</a>
+    </div>
+    <div class="card">
+      <h3>100 Mbps</h3>
+      <p class="price">৳1200</p>
+      <p>মাসিক প্যাকেজ</p>
+      <a class="btn" href="tel:+8801782343935">যোগাযোগ</a>
+    </div>
   </div>
+</section>
 
-  <footer>© 2026 Evan Raj</footer>
+<section>
+  <h2 class="green">Our Coverage Area</h2>
+  <p>Mogbazar to Malibagh, Dhaka</p>
+</section>
+
+<section>
+  <h2 class="green">Contact UBNS</h2>
+  <p>নতুন সংযোগ ও সাপোর্টের জন্য ফোন করুন।</p>
+  <p>+8801782343935</p>
+  <a class="btn" href="tel:+8801782343935">Call UBNS</a>
+  <p><a class="btn" href="https://wa.me/8801782343935">WhatsApp</a></p>
+</section>
+
+<footer>
+  <p>© UBNS Internet Service</p>
+  <p>Mogbazar to Malibagh, Dhaka</p>
+</footer>
+
 </body>
 </html>
